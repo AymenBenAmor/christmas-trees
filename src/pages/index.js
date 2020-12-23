@@ -127,7 +127,7 @@ const IndexPage = () => {
         </li>
         {links.map(link => (
           <li style={{ ...listItemStyles, color: link.color }}>
-            <span>
+            <span className="bg-pink-100">
               <a
                 style={linkStyle}
                 href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}

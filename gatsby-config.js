@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "interplanetary-friends",
   },
+  flags : { DEV_SSR: true },
   plugins: [
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-sharp",
@@ -23,5 +24,6 @@ module.exports = {
       },
       __key: "images",
     },
+    "gatsby-plugin-postcss",
   ],
 };
