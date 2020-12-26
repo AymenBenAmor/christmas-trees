@@ -4,7 +4,6 @@ module.exports = {
   },
   flags : { DEV_SSR: true },
   plugins: [
-    "gatsby-plugin-netlify-cms",
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
@@ -12,7 +11,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/christmas-tree-icon.png",
       },
     },
     "gatsby-transformer-sharp",
