@@ -7,7 +7,7 @@ const query = graphql`
     file(relativePath: { eq: "christmas-tree.png" }) {
       childImageSharp {
         fixed(width: 900, height: 1300) {
-          ...GatsbyImageSharpFixed
+          ...GatsbyImageSharpFixed_withWebp_tracedSVG
         }
       }
     }
