@@ -1,6 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: "interplanetary-friends",
+    title: "Christmas tree",
+    siteUrl: 'https://christmas-gift.netlify.app',
+    app: {
+      url: 'https://christmas-gift.netlify.app',
+      title: 'Christmas tree',
+      description:
+        'Get your gift from santa!',
+      titleTemplate: 'Christmas tree',
+      subtitle: 'Get your gift from santa!',
+      copyright: '© All rights reserved.',
+    },
   },
   flags : { DEV_SSR: true },
   plugins: [
