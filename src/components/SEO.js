@@ -58,7 +58,7 @@ const SEO = ({ title, description, type }) => {
       />
       <meta
         name="twitter:title"
-        content={title ? title : 'BeJS | JS community in Belgium'}
+        content={title ? title : 'Christmas tree'}
       />
       <meta name="twitter:image" content={socialImage} />
     </Helmet>
